@@ -1,0 +1,55 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+First of all, it shortens the comparison area by limiting only to those number 
+of lines that have been changed actually. Then it pin-point the line number and
+also tell us if a particular line has been removed or added. In this way it 
+maked debugging easier
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+We can easily compare our new experimental version with the previous stable 
+versions and cross-check with the previous version .
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+ pros
+ We can create a new commit every time a new function is added.
+ There will be no incomplete or half-functional commit.
+ Easier to debug
+
+
+ cons
+ If the code you are working on is soo long that you haven't commited it for a 
+ weeek or so and suddenly the computer crash then all of your work done will be 
+ lost.
+      
+ Be very careful to commit a work as soon as it is complete.
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Well the answer to this is purely subjective. Sometimes when we have no 
+inter-dependency issues for example two C++ programs which are not inter-dependent 
+on each other in any way. In this case we can save them separately but if there 
+is some dependency issue then we need to save multiple files together. for example
+while working with html and css.
+
+How can you use the commands git log and git diff to view the history of files?
+
+ We can use git log to see all the commit ID's as well as commit messages but to
+ see what has changed in coding part we need to use git diff pass two commit 
+ id's.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+Using version control we can easily switch back and forth to see where the bug 
+was introduced without worrying about any loss of files. 
+
+Note- Remember the commit ID otherwise it's gonna a little bit difficult.
+
